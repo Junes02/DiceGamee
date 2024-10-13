@@ -20,7 +20,7 @@ if (spiller1tur) {
     score = spiller2score;
 }     
 String besked;
-        if(spiller1tur){
+        if (spiller1tur) {
             besked = "Spiller 1 tur";
         }
         else{
@@ -30,7 +30,6 @@ String besked;
 
 int sum = terning.kast();
 System.out.println(terning);
-
 
 
 String ensResult = terning.getEns();
